@@ -1,5 +1,13 @@
 @extends('layouts.main')
 @section('content')
+<style>
+        .banner_title {
+            margin-bottom: 20px !important;
+        }
+        .eyebrow {
+            font-size: 35px !important;
+        }
+    </style>
     <section class="hero-content home-hero">
         <div class="container">
             <div class="row align-items-center justify-content-center">

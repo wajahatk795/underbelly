@@ -309,6 +309,54 @@ section.about {
     width: 100%;
 }
 
+.books-slider .item {
+    display: flex;
+    align-items: center;
+}
+
+.books-slider .item .book-card {
+    flex: 0 0 58%;
+    width: auto;
+}
+
+.books-slider .item .book-content {
+    flex: 1;
+    min-width: 0;
+    margin-top: 0;
+    padding-left: 18px;
+    text-align: left;
+}
+
+.books-slider .item .book-content h3 {
+    height: auto;
+    margin-bottom: 18px;
+}
+
+.books-slider .item .book-content button {
+    display: block;
+    margin-top: 0;
+    white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+    .books-slider .item {
+        display: block;
+    }
+
+    .books-slider .item .book-card {
+        width: 100%;
+    }
+
+    .books-slider .item .book-content {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .books-slider .item .book-content button {
+        margin: 0 auto;
+    }
+}
+
 /* ============ Book-section ================ */
 
 
@@ -1295,5 +1343,5 @@ button.btn.btn-primary {
 }
 
 .book-content h3 {
-    height: 85px;
+    height: auto;
 }

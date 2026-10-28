@@ -50,7 +50,7 @@
 
         var booksItemCount = $('.books-slider .item').length;
         $('.books-slider').owlCarousel({
-            loop: booksItemCount > 3 ? true : false,
+            loop: booksItemCount > 2 ? true : false,
             margin: 30,
             nav: true,
             dots: false,
@@ -69,7 +69,7 @@
                     items: 2
                 },
                 992: {
-                    items: 3
+                    items: 2
                 }
             }
         });

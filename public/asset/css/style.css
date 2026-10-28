@@ -325,6 +325,7 @@ section.about {
     margin-top: 0;
     padding-left: 18px;
     text-align: left;
+    transform: translateY(-35px);
 }
 
 .books-slider .item .book-content h3 {
@@ -350,6 +351,7 @@ section.about {
     .books-slider .item .book-content {
         padding-left: 0;
         text-align: center;
+        transform: none;
     }
 
     .books-slider .item .book-content button {

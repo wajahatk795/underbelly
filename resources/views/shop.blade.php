@@ -235,7 +235,7 @@
                                     <a href="{{ $p->link }}" target="_blank"><button type="button">Buy From
                                             Amazon</button></a>
                                 @else
-                                    <button type="button">Buy From Amazon</button>
+                                    <button type="button">Comming Soon</button>
                                 @endif
                             </div>
                         </div>

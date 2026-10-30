@@ -171,7 +171,7 @@
                                     </div>
                                     @if (!empty($p->link))
                                         <a href="{{ $p->link }}" target="_blank"><button class="explore-button"
-                                                type="button">Buy From Amazon</button></a>
+                                                type="button">Buy From Barnes & Noble.</button></a>
                                     @else
                                         <button class="explore-button" type="button">Coming Soon</button>
                                     @endif

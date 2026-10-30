@@ -233,7 +233,7 @@
                                 <h3>{{ $p->name }}</h3>
                                 @if (!empty($p->link))
                                     <a href="{{ $p->link }}" target="_blank"><button type="button">Buy From
-                                            Barnes & Noble.</button></a>
+                                            Barnes & Noble</button></a>
                                 @else
                                     <button type="button">Coming Soon</button>
                                 @endif

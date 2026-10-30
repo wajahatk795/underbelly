@@ -113,7 +113,7 @@
                                     <h3>{{ $p->name }}</h3>
                                     @if (!empty($p->link))
                                         <a href="{{ $p->link }}" target="_blank"><button type="button">Buy From
-                                                Amazon</button></a>
+                                                 Barnes & Noble</button></a>
                                     @else
                                         <button type="button">Coming Soon</button>
                                     @endif
@@ -171,7 +171,7 @@
                                     </div>
                                     @if (!empty($p->link))
                                         <a href="{{ $p->link }}" target="_blank"><button class="explore-button"
-                                                type="button">Buy From Barnes & Noble.</button></a>
+                                                type="button">Buy From Barnes & Noble</button></a>
                                     @else
                                         <button class="explore-button" type="button">Coming Soon</button>
                                     @endif

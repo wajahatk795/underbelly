@@ -337,6 +337,8 @@ section.about {
     display: block;
     margin-top: 0;
     white-space: nowrap;
+    width: 100%;
+    font-size: 16px;
 }
 
 @media (max-width: 767px) {
@@ -444,6 +446,8 @@ section.about {
 
 .explore-more-content .explore-button {
     margin: 0;
+    width: 100%;
+    font-size: 16px;
 }
 
 @keyframes exploreBookFloat {
